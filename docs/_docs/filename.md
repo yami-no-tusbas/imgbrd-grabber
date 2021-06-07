@@ -79,6 +79,7 @@ Note that here, each slash (`/`) corresponds to a different directory:
 * `count`: counts the current image downloaded during a batch download. Useful to have unique counters per batchs.
 * `num`: counter that goes up for every file with the same name. Useful to prevent overwriting already existing files.
 * `position`: the position of the image in the results list or gallery (starts at 1).
+* `directory`: the directory wich the image is from. (ex : "c:\my gallery\images\image.jpg" will return "c:\my gallery\images\" )
 
 ## Gallery tokens
 
